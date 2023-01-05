@@ -1,0 +1,153 @@
+/* ************** */
+/* HEADER */
+/* ************** */
+.header {
+  background-color: #eef1f6;
+}
+
+.header-container {
+  max-width: 140rem;
+  display: flex;
+  align-items: center;
+  padding-inline: 8.4rem;
+  padding-block: 4.4rem;
+  margin: auto;
+}
+
+.header-logo {
+  margin-right: 8rem;
+}
+
+.header-nav {
+  display: flex;
+  gap: 3.2rem;
+  margin-right: auto;
+}
+
+.nav-icon {
+  margin-left: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.header-nav li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #0e1133;
+  cursor: pointer;
+}
+
+.cta-btn:link,
+.cta-btn:visited,
+.cta-btn:hover,
+.cta-btn:active {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff3e66;
+  padding-block: 1.6rem;
+  padding-inline: 3.2rem;
+  border-radius: 100px;
+}
+
+/* ************** */
+/* HERO SECTION */
+/* ************** */
+.hero-section {
+  background-color: #eef1f6;
+  padding-block-start: 6.4rem;
+}
+
+.hero-text-cell {
+  padding: 8.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.hero-heading {
+  font-size: 6.2rem;
+  font-weight: 400;
+  color: #0e1133;
+}
+
+.hero-text {
+  color: #0e1133;
+  font-size: 1.6rem;
+}
+
+.hero-img {
+  align-self: end;
+  max-width: 100%;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #ff3e66;
+  border-radius: 100px;
+  padding: 2rem;
+  background-color: white;
+  max-width: 80%;
+
+  box-shadow: 0px 3px 20px 0px rgba(28, 28, 28, 0.3);
+}
+
+.cta-input {
+  font-family: "Roboto", sans-serif;
+  min-width: 80%;
+  border: none;
+  margin-inline: 2rem auto;
+}
+
+.cta-input:focus {
+  outline: none;
+}
+
+.cta-arrow {
+  color: #ff3e66;
+  cursor: pointer;
+}
+
+/* FEEDBACK PART */
+.feedback {
+  display: flex;
+  align-items: center;
+}
+
+.feedback-faces {
+}
+
+.feedback-face {
+  border-radius: 100%;
+  border: 0.3rem solid #fff;
+  width: 4.8rem;
+  margin-right: -1.8rem;
+}
+
+.feedback-face:last-child {
+  margin-right: 2.4rem;
+}
+
+.feedback-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-number {
+  font-size: 2.4rem;
+  color: #0e1133;
+}
+
+.feedback-text {
+  font-size: 1.2rem;
+  color: #333;
+}
