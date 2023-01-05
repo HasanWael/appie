@@ -23,7 +23,7 @@ Large: 1.8
 
 --- 02 COLORS
 
-- Main(Primary): #e67e22
+- Main(Primary): #ff3e66
 - Tints:
 #fdf2e9
 #fae5d3
@@ -55,7 +55,7 @@ Meduim: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&display=swap");
 
 * {
   margin: 0;
