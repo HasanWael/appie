@@ -3,14 +3,15 @@
 /* ************** */
 .header {
   background-color: #eef1f6;
+  padding-inline: 2.2rem;
 }
 
 .header-container {
-  max-width: 140rem;
+  max-width: 130rem;
   display: flex;
   align-items: center;
-  padding-inline: 8.4rem;
-  padding-block: 4.4rem;
+  padding-block-start: 4.4rem;
+  padding-block-end: 12.8rem;
   margin: auto;
 }
 
@@ -57,11 +58,11 @@
 /* ************** */
 .hero-section {
   background-color: #eef1f6;
-  padding-block-start: 6.4rem;
+  padding-inline: 2.2rem;
 }
 
 .hero-text-cell {
-  padding: 8.4rem;
+  padding-block: 8.4rem;
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
@@ -96,8 +97,7 @@
   border-radius: 100px;
   padding: 2rem;
   background-color: white;
-  max-width: 80%;
-
+  max-width: 60%;
   box-shadow: 0px 3px 20px 0px rgba(28, 28, 28, 0.3);
 }
 
