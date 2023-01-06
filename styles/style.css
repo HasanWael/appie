@@ -158,6 +158,7 @@
 .how-section-1 {
   /* background-color: #bdd2f5; */
   padding-block: 9.6rem;
+  padding-inline: 2.2rem;
 }
 
 .subheading-container {
@@ -244,6 +245,7 @@
 }
 
 .marketing-img {
+  max-width: 100%;
 }
 
 .marketing-text-box {
