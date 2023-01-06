@@ -151,3 +151,94 @@
   font-size: 1.2rem;
   color: #333;
 }
+
+/* ************** */
+/* 1-HOW SECTION  */
+/* ************** */
+.how-section-1 {
+  /* background-color: #bdd2f5; */
+  padding-block: 9.6rem;
+}
+
+.heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.subheading-container {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.subheading {
+  color: #444;
+  margin-bottom: 2.4rem;
+}
+
+.view-all--btn:link,
+.view-all--btn:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #222;
+  font-weight: 500;
+  border: 3px solid #eef1f6;
+  border-radius: 100px;
+  padding-block: 1.2rem;
+  padding-inline: 2.2rem;
+}
+
+.feature-gap {
+  gap: 3.2rem;
+}
+
+.feature {
+  padding: 4.8rem;
+  border: 1px solid #eef1f6;
+  border-radius: 9px;
+  /* background-color: gray; */
+}
+
+.feature-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-bottom: 2.4rem;
+  padding: 1.4rem;
+  border-radius: 50%;
+}
+
+.feature-heading {
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.feature-text {
+  color: #555;
+  margin-bottom: 3.2rem;
+}
+
+.more--btn {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.f-icon-1 {
+  background-color: #87cefa;
+}
+.f-icon-2 {
+  background-color: #ff3e66;
+}
+.f-icon-3 {
+  background-color: #38a5b1;
+}
+.f-icon-4 {
+  background-color: #ffa500;
+}
+.f-icon-5 {
+  background-color: #ecf1f2;
+}
+.f-icon-6 {
+  background-color: #8c9ebe;
+}

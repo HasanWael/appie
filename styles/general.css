@@ -53,6 +53,17 @@ Meduim: 11px
 
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+#182D60
+#ECF1F2
+#BF5857
+#3D9DE1
+#8C9EBE
+#DDAF55
+#D29A9B
+#ECC5A4
+#BCC6D1
 */
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&display=swap");
@@ -80,6 +91,10 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
 }
@@ -100,6 +115,6 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.margin-md {
-  margin: 0 6.4rem;
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
 }
