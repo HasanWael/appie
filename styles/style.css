@@ -246,6 +246,7 @@
 
 .marketing-img {
   max-width: 100%;
+  transform: translateY(-7rem);
 }
 
 .marketing-text-box {
