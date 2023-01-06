@@ -200,6 +200,7 @@
 }
 
 .feature-icon {
+  color: #fff;
   width: 2.4rem;
   height: 2.4rem;
   margin-bottom: 2.4rem;
@@ -237,7 +238,7 @@
   background-color: #ffa500;
 }
 .f-icon-5 {
-  background-color: #ecf1f2;
+  background-color: #182d60;
 }
 .f-icon-6 {
   background-color: #8c9ebe;
