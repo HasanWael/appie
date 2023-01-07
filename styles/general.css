@@ -98,15 +98,26 @@ body {
   /* margin-bottom: 1.2rem; */
 }
 .subheading {
+  font-size: 1.8rem;
   color: #444;
   /* margin-bottom: 2.4rem; */
   line-height: 1.5;
 }
 
+/* FLEX */
 .flex {
   display: flex;
 }
 
+.flex--gap-sm {
+  gap: 2rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+/* GRID */
 .grid {
   display: grid;
 }
@@ -131,14 +142,15 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
+/* MARGINS */
 .margin-bottom-sm {
-  margin-bottom: 1.2rem;
+  margin-block-end: 1.2rem;
 }
 
 .margin-bottom-md {
-  margin-bottom: 3.2rem;
+  margin-block-end: 3.2rem;
 }
 
 .margin-bottom-lg {
-  margin-bottom: 6.4rem;
+  margin-block-end: 6.4rem;
 }

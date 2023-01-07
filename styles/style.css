@@ -45,8 +45,9 @@
 .cta-btn:hover,
 .cta-btn:active {
   display: block;
-  text-decoration: none;
   color: #fff;
+  font-size: 1.8rem;
+  text-decoration: none;
   background-color: #ff3e66;
   padding-block: 1.6rem;
   padding-inline: 3.2rem;
@@ -54,7 +55,7 @@
 }
 
 /* ************** */
-/* HERO SECTION */
+/* 1-HERO SECTION */
 /* ************** */
 .hero-section {
   background-color: #eef1f6;
@@ -112,8 +113,16 @@
   outline: none;
 }
 
-.cta-arrow {
+.cta-mail-icon {
+  color: #888;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.cta-arrow-icon {
   color: #ff3e66;
+  width: 1.8rem;
+  height: 1.8rem;
   cursor: pointer;
 }
 
@@ -153,7 +162,7 @@
 }
 
 /* ************** */
-/* 1-HOW SECTION  */
+/* 2-features SECTION  */
 /* ************** */
 .features-section {
   /* background-color: #bdd2f5; */
@@ -199,11 +208,13 @@
 }
 
 .feature-heading {
+  font-size: 1.6rem;
   font-weight: 700;
   /* margin-bottom: 1.2rem; */
 }
 
 .feature-text {
+  font-size: 1.6rem;
   color: #555;
   margin-block-end: 3.2rem;
 }
@@ -211,7 +222,7 @@
 .more--btn {
   text-decoration: none;
   color: #555;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
@@ -239,7 +250,7 @@
   background-color: #eef1f6;
   padding: 6.4rem;
   max-height: 44rem;
-  margin-block: 9.6rem;
+  margin-block-start: 9.6rem;
   border-radius: 9px;
   overflow: hidden;
 }
@@ -294,4 +305,74 @@
   color: #333;
   line-height: 1.5;
   /* margin-bottom: 1.2rem; */
+}
+
+/* **************** */
+/* 3-SECTION FOR MORE FEATURES  */
+/* **************** */
+.more-features-section {
+  background-color: #0e1133;
+  padding-block: 8rem;
+}
+
+.features-heading-box {
+  text-align: center;
+}
+
+.features-heading {
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.features-subheading {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.feature-text {
+  margin-block-end: 0;
+}
+
+.features-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-box {
+  gap: 1.1rem;
+  border: 1px solid #202234;
+  border-radius: 9px;
+  padding-block: 2.4rem;
+  padding-inline: 3.6rem;
+}
+
+.mr-feature-icon-1 {
+  color: #ff3e66;
+  border: 5px solid #2a182d;
+  border-radius: 50%;
+}
+
+.mr-feature-icon-2 {
+  color: #2eacfc;
+  border: 5px solid #15233d;
+  border-radius: 50%;
+}
+
+.mr-feature-icon-3 {
+  color: #33c956;
+  border: 5px solid #15262c;
+  border-radius: 50%;
+}
+
+.mr-feature-heading {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.feature-text {
+  color: #9294a3;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
