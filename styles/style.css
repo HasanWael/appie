@@ -308,7 +308,7 @@
 }
 
 /* **************** */
-/* 3-SECTION FOR MORE FEATURES  */
+/* 3-MORE FEATURES SECTION */
 /* **************** */
 .more-features-section {
   background-color: #0e1133;
@@ -376,5 +376,6 @@
 }
 
 .features-img {
+  justify-self: center;
   max-width: 80%;
 }
