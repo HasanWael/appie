@@ -483,3 +483,40 @@ p.video-subeading {
   border: 2px solid #eef1f6;
   border-radius: 100px;
 }
+
+/* **************** */
+/* 5-DOWNLOAD SECTION */
+/* **************** */
+.download-section {
+  background-color: #eef1f6;
+  padding-block: 9.6rem;
+  padding-inline: 2.2rem;
+}
+
+.download-btns {
+}
+
+.apple-btn {
+  display: inline-block;
+  color: #0f1234;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: background;
+  padding-block: 1.4rem;
+  padding-inline: 3rem;
+  border: 2px solid #eef1f6;
+  border-radius: 100px;
+}
+
+.download-apple--icon {
+}
+
+.op {
+}
+
+.android-btn {
+}
+
+.download-android--icon {
+}
