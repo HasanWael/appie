@@ -150,12 +150,14 @@
 
 .feedback-number {
   font-size: 2.4rem;
+  font-weight: 900;
   color: #0e1133;
 }
 
 .feedback-text {
   font-size: 1.2rem;
-  color: #333;
+  font-weight: 500;
+  color: #515156;
 }
 
 /* ************** */
@@ -438,6 +440,7 @@ p.video-subeading {
 }
 
 .arrow-btn {
+  display: flex;
   background-color: background;
   color: #555;
   border: 2px solid #eef1f6;
@@ -447,8 +450,8 @@ p.video-subeading {
 }
 
 .learn-arrow-icon {
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .cta--btn-2:link,
