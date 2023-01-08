@@ -40,10 +40,10 @@
   cursor: pointer;
 }
 
-.cta-btn:link,
-.cta-btn:visited,
-.cta-btn:hover,
-.cta-btn:active {
+.cta--btn-1:link,
+.cta--btn-1:visited,
+.cta--btn-1:hover,
+.cta--btn-1:active {
   display: block;
   color: #fff;
   font-size: 1.8rem;
@@ -98,15 +98,16 @@
   border-radius: 100px;
   padding: 2rem;
   background-color: white;
-  max-width: 60%;
+  max-width: 70%;
   box-shadow: 0px 3px 20px 0px rgba(28, 28, 28, 0.3);
 }
 
 .cta-input {
   font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
   min-width: 80%;
   border: none;
-  margin-inline: 2rem auto;
+  margin-inline: 2rem;
 }
 
 .cta-input:focus {
@@ -115,14 +116,14 @@
 
 .cta-mail-icon {
   color: #888;
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .cta-arrow-icon {
   color: #ff3e66;
-  width: 1.8rem;
-  height: 1.8rem;
+  width: 2rem;
+  height: 2rem;
   cursor: pointer;
 }
 
@@ -181,7 +182,7 @@
   font-size: 1.6rem;
   color: #222;
   font-weight: 500;
-  border: 3px solid #eef1f6;
+  border: 0.3rem solid #eef1f6;
   border-radius: 100px;
   padding-block: 1.2rem;
   padding-inline: 2.2rem;
@@ -352,22 +353,26 @@
   padding-inline: 3.6rem;
 }
 
+.mr-f-icon {
+  border-radius: 50%;
+  border: 0.5rem solid;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
 .mr-feature-icon-1 {
   color: #ff3e66;
-  border: 5px solid #2a182d;
-  border-radius: 50%;
+  border-color: #2a182d;
 }
 
 .mr-feature-icon-2 {
   color: #2eacfc;
-  border: 5px solid #15233d;
-  border-radius: 50%;
+  border-color: #15233d;
 }
 
 .mr-feature-icon-3 {
   color: #33c956;
-  border: 5px solid #15262c;
-  border-radius: 50%;
+  border-color: #15262c;
 }
 
 .mr-feature-heading {
@@ -379,4 +384,102 @@
 .features-img {
   justify-self: center;
   max-width: 80%;
+}
+
+/* **************** */
+/* 4-MORE FEATURES SECTION */
+/* **************** */
+.how-section {
+  padding-block: 9.6rem;
+  padding-inline: 2.2rem;
+}
+
+.how-heading-box {
+}
+
+.counter-part {
+  justify-items: center;
+}
+
+.counter-box {
+  display: grid;
+  justify-items: center;
+  padding: 4.8rem;
+  border-radius: 9px;
+  box-shadow: 0px 14px 20px 0px rgba(28, 28, 28, 0.12);
+}
+
+.counter-icon {
+}
+
+.counter {
+  font-size: 3rem;
+  color: #0f1234;
+}
+
+.counter-num {
+  font-weight: 700;
+}
+
+.counter-detail {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #525258;
+}
+
+.learn-how-visuals {
+}
+
+.video {
+  display: flex;
+  justify-content: space-between;
+}
+
+.video-description {
+  grid-column: 1 / 3;
+  margin-inline-start: 8rem;
+}
+
+.video-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0f1234;
+  margin-inline-end: auto;
+}
+
+p.video-subeading {
+  font-size: 1.6rem;
+}
+
+.learn-arrows {
+}
+
+.arrow-btn {
+  background-color: background;
+  border: 2px solid #eef1f6;
+  border-radius: 50%;
+  color: #555;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+.learn-arrow-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.cta--btn-2:link,
+.cta--btn-2:visited,
+.cta--btn-2:hover,
+.cta--btn-2:active {
+  display: inline-block;
+  color: #0f1234;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: background;
+  padding-block: 1.4rem;
+  padding-inline: 3rem;
+  border: 2px solid #eef1f6;
+  border-radius: 100px;
 }
