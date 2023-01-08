@@ -13,7 +13,7 @@
   </head>
   <body>
     <nav>
-      <div class="header">
+      <div class="header p-inline-sm">
         <div class="header-container">
           <a href="#"
             ><img class="header-logo" src="imgs/logo.png" alt="appie-logo"
@@ -46,7 +46,7 @@
     </nav>
 
     <main>
-      <div class="hero-section">
+      <div class="hero-section p-inline-md">
         <div class="container grid grid--2-cols">
           <div class="hero-text-cell">
             <div class="hero-text-box">
@@ -56,7 +56,7 @@
               </h1>
               <p class="hero-text">Find the best application in the appie.</p>
             </div>
-            <div class="cta">
+            <div class="cta align-items-c">
               <ion-icon class="cta-mail-icon" name="mail-outline"></ion-icon>
               <input
                 class="cta-input"
@@ -68,7 +68,7 @@
                 name="arrow-forward-outline"
               ></ion-icon>
             </div>
-            <div class="feedback">
+            <div class="feedback align-items-c">
               <div class="feedback-faces">
                 <img
                   class="feedback-face"
@@ -105,7 +105,7 @@
         </div>
       </div>
 
-      <div class="features-section">
+      <div class="features-section p-block-lg p-inline-md">
         <div class="container">
           <h2 class="heading m-bottom-sm">Features</h2>
           <div class="flex subheading-container m-bottom-md">
@@ -243,7 +243,7 @@
         </div>
       </div>
 
-      <div class="more-features-section">
+      <div class="more-features-section p-block-lg p-inline-md">
         <div class="container">
           <div class="features-heading-box">
             <h2 class="features-heading m-bottom-sm">
@@ -316,7 +316,7 @@
         </div>
       </div>
 
-      <div class="how-section">
+      <div class="how-section p-block-lg p-inline-md">
         <div class="container">
           <div class="how-heading-box m-bottom-huge">
             <h2 class="heading m-bottom-sm">How does it work</h2>
@@ -368,7 +368,7 @@
           </div>
 
           <div class="learn-how-visuals">
-            <div class="video m-bottom-md">
+            <div class="video1 m-bottom-md">
               <img src="/imgs/video-thumb-1.jpg" alt="video how to" />
 
               <img
@@ -407,7 +407,7 @@
         </div>
       </div>
 
-      <div class="download-section">
+      <div class="download-section p-block-xlg p-inline-md">
         <div class="container">
           <div class="download-text-box">
             <p class="heading-before m-bottom-sm">Download the app</p>
@@ -420,22 +420,28 @@
               arse over blatant
             </p>
             <div class="download-btns">
-              <div class="apple-btn">
-                <ion-icon
-                  class="download-apple--icon"
-                  name="logo-apple"
-                ></ion-icon>
-                <a href="#">Download for<br /><span class="op">IOS</span></a>
-              </div>
-              <div class="android-btn">
-                <ion-icon
-                  class="download-android--icon"
-                  name="logo-android"
-                ></ion-icon>
-                <a href="#"
-                  >Download for<br /><span class="op">Android</span></a
-                >
-              </div>
+              <a class="download-btn" href="#">
+                <div class="ios-btn btn align-items-c">
+                  <ion-icon
+                    class="ios--icon download-icon"
+                    name="logo-apple"
+                  ></ion-icon>
+                  <p class="download-btn-text">
+                    Download for<br /><span class="op">IOS</span>
+                  </p>
+                </div>
+              </a>
+              <a class="download-btn" href="#">
+                <div class="android-btn btn align-items-c">
+                  <ion-icon
+                    class="android--icon download-icon"
+                    name="logo-android"
+                  ></ion-icon>
+                  <p class="download-btn-text">
+                    Download for<br /><span class="op">Android</span>
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </div>

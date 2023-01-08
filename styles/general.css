@@ -89,6 +89,13 @@ body {
   margin: 0 auto;
 }
 
+.heading-before {
+  font-size: 1.4rem;
+  color: #ff3e66;
+  font-weight: 500;
+  /* margin-bottom: 1.2rem; */
+}
+
 .heading {
   font-size: 3.6rem;
   font-weight: 900;
@@ -96,7 +103,7 @@ body {
   /* margin-bottom: 1.2rem; */
 }
 .subheading {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #444;
   /* margin-bottom: 2.4rem; */
   line-height: 1.5;
@@ -163,4 +170,24 @@ body {
 
 .m-bottom-huge {
   margin-block-end: 9.6rem;
+}
+
+/* PADDINGS */
+
+/* inline */
+.p-inline-sm {
+  padding-inline: 1.2rem;
+}
+
+.p-inline-md {
+  padding-inline: 2.2rem;
+}
+
+/* block */
+.p-block-lg {
+  padding-block: 9.6rem;
+}
+
+.p-block-xlg {
+  padding-block: 12.8rem;
 }
