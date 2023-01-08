@@ -312,12 +312,13 @@
 /* **************** */
 .more-features-section {
   background-color: #0e1133;
-  padding-block: 8rem;
+  padding-block: 9.6rem;
+  padding-inline: 2.2rem;
 }
 
 .features-heading-box {
   text-align: center;
-  margin-block-end: 8rem;
+  margin-block-end: 6.4rem;
 }
 
 .features-heading {
