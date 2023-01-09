@@ -304,12 +304,12 @@
   background-color: #0e1133;
 }
 
-.features-heading-box {
+.mr-features-heading-box {
   text-align: center;
   margin-block-end: 6.4rem;
 }
 
-.features-heading {
+.mr-features-heading {
   font-size: 3.6rem;
   font-weight: 900;
   color: #fff;
@@ -415,9 +415,12 @@
 .learn-how-visuals {
 }
 
-.video1 {
+.video {
   display: flex;
   justify-content: space-between;
+}
+
+.video-thumb {
 }
 
 .video-description {
@@ -521,4 +524,48 @@ p.video-subeading {
 .android-btn {
   color: #0f1234;
   background-color: #fff;
+}
+
+/* **************** */
+/* 5-PRICING SECTION */
+/* **************** */
+.Pricing-section {
+}
+
+.pricing-heading-box {
+  text-align: center;
+}
+
+.pricing-plans {
+}
+
+/* PLAN TYPE */
+.plan-type {
+  display: flex;
+  justify-content: center;
+}
+
+.plan-type > ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #444;
+  border: 3px solid #eef1f6;
+  /* box-shadow: 0 0 0 3px #eef1f6; */
+  border-radius: 22px;
+  gap: 1rem;
+  padding-block: 0.2rem;
+  padding-inline: 0.2rem;
+}
+
+.type {
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+  border-radius: inherit;
+}
+
+.active {
+  background: #ff3e66;
+  color: #fff;
 }
