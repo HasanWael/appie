@@ -156,19 +156,19 @@ body {
 }
 
 /* MARGINS */
-.m-bottom-sm {
+.m-b-sm {
   margin-block-end: 1.2rem;
 }
 
-.m-bottom-md {
+.m-b-md {
   margin-block-end: 3.2rem;
 }
 
-.m-bottom-lg {
+.m-b-lg {
   margin-block-end: 6.4rem;
 }
 
-.m-bottom-huge {
+.m-b-xlg {
   margin-block-end: 9.6rem;
 }
 
@@ -183,11 +183,23 @@ body {
   padding-inline: 2.2rem;
 }
 
+.p-inline-lg {
+  padding-inline: 6.4rem;
+}
+
 /* block */
+.p-block-md {
+  padding-block: 3.2rem;
+}
+
 .p-block-lg {
   padding-block: 9.6rem;
 }
 
 .p-block-xlg {
   padding-block: 12.8rem;
+}
+
+.p-bottom-md {
+  padding-block-end: 3.2rem;
 }
