@@ -82,6 +82,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 .container {
@@ -202,4 +203,27 @@ body {
 
 .p-bottom-md {
   padding-block-end: 3.2rem;
+}
+
+/* TO TOP BUTTON */
+.to-top--btn:link,
+.to-top--btn:visited {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  height: 4rem;
+  width: 4rem;
+  opacity: 0.5;
+  transition: all 0.4s;
+}
+.to-top--btn:hover,
+.to-top--btn:active {
+  opacity: 1;
+}
+.arrow-up-icon {
+  font-size: 2.4rem;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #ff3e65;
 }

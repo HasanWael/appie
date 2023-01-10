@@ -620,7 +620,7 @@ p.video-subeading {
 
 .card:hover {
   box-shadow: 0px 14px 20px 0px rgb(28 28 28 / 12%);
-  border-top: 3px solid #ff3e66;
+  border-top: 2px solid #ff3e66;
 }
 
 .card:hover .plan--btn {
