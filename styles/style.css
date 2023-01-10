@@ -539,7 +539,7 @@ p.video-subeading {
 .pricing-plans {
 }
 
-/* PLAN TYPE */
+/* PLAN TYPE -MONTHLY or YEARLY- */
 .plan-type {
   display: flex;
   justify-content: center;
@@ -560,12 +560,19 @@ p.video-subeading {
 }
 
 .type {
-  padding-block: 0.5rem;
+  padding-block: 0.7rem;
   padding-inline: 2rem;
   border-radius: inherit;
+  cursor: pointer;
 }
 
-.active {
+.type:hover,
+.type:focus {
   background: #ff3e66;
   color: #fff;
 }
+
+/* .active {
+  background: #ff3e66;
+  color: #fff;
+} */
