@@ -97,6 +97,10 @@ body {
   /* margin-bottom: 1.2rem; */
 }
 
+.center-heading-box {
+  text-align: center;
+}
+
 .heading {
   font-size: 4rem;
   font-weight: 900;
@@ -156,6 +160,10 @@ body {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.grid--6-cols {
+  grid-template-columns: repeat(6, 1fr);
+}
+
 /* MARGINS */
 .m-b-sm {
   margin-block-end: 1.2rem;
@@ -209,12 +217,11 @@ body {
 .to-top--btn:link,
 .to-top--btn:visited {
   position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  height: 4rem;
-  width: 4rem;
+  bottom: 3rem;
+  right: 4rem;
   opacity: 0.5;
-  transition: all 0.4s;
+  transition: all 0.3s ease-out;
+  transition-delay: 0.3s;
 }
 .to-top--btn:hover,
 .to-top--btn:active {
