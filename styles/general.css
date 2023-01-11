@@ -85,6 +85,11 @@ body {
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   max-width: 130rem;
   margin: 0 auto;
@@ -216,12 +221,12 @@ body {
 /* TO TOP BUTTON */
 .to-top--btn:link,
 .to-top--btn:visited {
-  position: absolute;
+  position: fixed;
   bottom: 3rem;
   right: 4rem;
-  opacity: 0.5;
+  opacity: 0.3;
   transition: all 0.3s ease-out;
-  transition-delay: 0.3s;
+  transition-delay: 0.1s;
 }
 .to-top--btn:hover,
 .to-top--btn:active {
