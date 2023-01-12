@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- FONTAWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <!-- FAVICONS -->
     <link rel="icon" href="/imgs/appie-favicon.png" />
     <!-- CSS LINKS -->
@@ -479,7 +484,7 @@
                 <h3 class="card-heading m-bottom-md">Fresh</h3>
 
                 <div class="price-box m-bottom-sm">
-                  <ion-icon class="tag-icon" name="pricetag-outline"></ion-icon>
+                  <i class="fa-sharp fa-solid fa-dollar-sign dollar-sign"></i>
                   <p class="price">04<span class="per">/month</span></p>
                 </div>
                 <p class="card-text">Get your free 14 day trial</p>
@@ -523,7 +528,7 @@
                 <h3 class="card-heading m-bottom-md">Sweet</h3>
 
                 <div class="price-box m-bottom-sm">
-                  <ion-icon class="tag-icon" name="pricetag-outline"></ion-icon>
+                  <i class="fa-sharp fa-solid fa-dollar-sign dollar-sign"></i>
                   <p class="price">16<span class="per">/month</span></p>
                 </div>
                 <p class="card-text">Billed $276 per website annually</p>
@@ -567,7 +572,7 @@
                 <h3 class="card-heading m-bottom-md">Juicy</h3>
 
                 <div class="price-box m-bottom-sm">
-                  <ion-icon class="tag-icon" name="pricetag-outline"></ion-icon>
+                  <i class="fa-sharp fa-solid fa-dollar-sign dollar-sign"></i>
                   <p class="price">27<span class="per">/month</span></p>
                 </div>
                 <p class="card-text">Billed $276 per website annually</p>
@@ -730,9 +735,9 @@
       </section>
     </main>
 
-    <footer id="footer">
+    <footer id="footer" class="p-inline-md">
       <div class="container">
-        <div class="footer-content grid">
+        <nav class="footer-content grid">
           <div class="social">
             <div class="flex flex-col flex--gap-sm m-bottom-md">
               <img class="footer-logo" src="/imgs/logo.png" alt="appie logo" />
@@ -757,38 +762,43 @@
               ></a>
             </div>
           </div>
-          <div class="company flex flex-col">
-            <h5 class="footer-header">Company</h5>
+          <nav class="company flex flex-col">
+            <p class="footer-heading">Company</p>
             <p class="footer-text">About Us</p>
             <p class="footer-text">Service</p>
             <p class="footer-text">Case Studies</p>
             <p class="footer-text">Blog</p>
             <p class="footer-text">Contact</p>
-          </div>
-          <div class="support flex flex-col">
-            <h5 class="footer-header">Support</h5>
+          </nav>
+          <nav class="support flex flex-col">
+            <p class="footer-heading">Support</p>
             <p class="footer-text">Community</p>
             <p class="footer-text">Resources</p>
             <p class="footer-text">Faqs</p>
             <p class="footer-text">Privacy Policy</p>
             <p class="footer-text">Careers</p>
-          </div>
-          <div class="contact flex flex-col">
-            <h5 class="footer-header">Get In Touch</h5>
-            <p class="footer-text">
-              <ion-icon class="contact-icon" name="send-outline"></ion-icon>
-              support@appie.com
-            </p>
-            <p class="footer-text">
-              <ion-icon class="contact-icon" name="call-outline"></ion-icon>
-              +(642) 342 762 44
-            </p>
-            <p class="footer-text">
-              <ion-icon class="contact-icon" name="location-outline"></ion-icon>
-              442 Belle Terre St Floor 7, San Francisco, AV 4206
-            </p>
-          </div>
-        </div>
+          </nav>
+          <nav class="contact flex flex-col">
+            <p class="footer-heading">Get In Touch</p>
+            <address class="contacts">
+              <p class="footer-text">
+                <ion-icon class="contact-icon" name="send-outline"></ion-icon>
+                <a href="mailto:support@appie.com">support@appie.com</a>
+              </p>
+              <p class="footer-text">
+                <ion-icon class="contact-icon" name="call-outline"></ion-icon>
+                <a href="tel:+(642) 342 762 44">+(642) 342 762 44</a>
+              </p>
+              <p class="footer-text">
+                <ion-icon
+                  class="contact-icon"
+                  name="location-outline"
+                ></ion-icon>
+                442 Belle Terre St Floor 7, San Francisco, AV 4206
+              </p>
+            </address>
+          </nav>
+        </nav>
         <div class="footer-bottom">
           <div class="f-download-btns flex flex--gap-sm">
             <a class="f-download-btn" href="#">
@@ -815,8 +825,9 @@
     </footer>
 
     <a class="to-top--btn" href="#nav"
-      ><ion-icon class="arrow-up-icon" name="chevron-up-outline"></ion-icon
+      ><ion-icon name="chevron-up-outline" class="arrow-up-icon"></ion-icon
     ></a>
+
     <!-- ION-ICONS Script -->
     <script
       type="module"
