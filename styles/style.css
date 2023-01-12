@@ -59,6 +59,7 @@
 .hero-section {
   background-color: #eef1f6;
   position: relative;
+  overflow: hidden;
 }
 
 .hero-text-cell {
@@ -89,14 +90,15 @@
   align-self: end;
   max-width: 100%;
   display: block;
+  rotate: 12deg;
 }
 
-.hero-img-box {
+/* .hero-img-box {
   position: absolute;
   right: 0;
   bottom: 0;
-  max-width: 40%;
-}
+  max-width: 100%;
+} */
 
 .cta {
   display: flex;
