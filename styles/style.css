@@ -6,7 +6,7 @@
 }
 
 .header-container {
-  max-width: 130rem;
+  max-width: 90vw;
   display: flex;
   align-items: center;
   padding-block-start: 4.4rem;
@@ -58,6 +58,7 @@
 /* ************** */
 .hero-section {
   background-color: #eef1f6;
+  position: relative;
 }
 
 .hero-text-cell {
@@ -87,6 +88,14 @@
 .hero-img {
   align-self: end;
   max-width: 100%;
+  display: block;
+}
+
+.hero-img-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 40%;
 }
 
 .cta {
