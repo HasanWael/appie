@@ -170,19 +170,19 @@ a {
 }
 
 /* MARGINS */
-.m-b-sm {
+.m-bottom-sm {
   margin-block-end: 1.2rem;
 }
 
-.m-b-md {
+.m-bottom-md {
   margin-block-end: 3.2rem;
 }
 
-.m-b-lg {
+.m-bottom-lg {
   margin-block-end: 6.4rem;
 }
 
-.m-b-xlg {
+.m-bottom-xlg {
   margin-block-end: 9.6rem;
 }
 
