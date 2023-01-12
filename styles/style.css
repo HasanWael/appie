@@ -901,7 +901,8 @@ footer {
 }
 
 .contact-icon {
-  font-size: 2rem;
+  width: 3rem;
+  height: 2.2rem;
   color: #2f75fa;
   /* transform: scaleX(-1); */
 }
