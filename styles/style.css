@@ -807,9 +807,17 @@ li.line-through {
   padding-block-end: 9.6rem;
 }
 
+.sponser-box-1,
+.sponser-box-2 {
+  column-gap: 3.8rem;
+}
+
+.sponser-box-1 {
+  justify-items: center;
+}
+
 .sponser-box-2 {
   justify-self: center;
-  column-gap: 4.8rem;
 }
 
 .sponser-img {
