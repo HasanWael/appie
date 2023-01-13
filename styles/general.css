@@ -78,11 +78,13 @@ html {
   /* 10/16 * 100 */
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   position: relative;
+  overflow-x: hidden;
 }
 
 a {

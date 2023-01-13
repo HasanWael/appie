@@ -79,6 +79,7 @@
   font-size: 6.2rem;
   font-weight: 400;
   color: #0e1133;
+  line-height: 1.1;
 }
 
 .hero-text {
@@ -136,13 +137,6 @@
 }
 
 /* FEEDBACK PART */
-.feedback {
-  display: flex;
-}
-
-.feedback-faces {
-}
-
 .feedback-face {
   border-radius: 100%;
   border: 0.3rem solid #fff;
@@ -152,11 +146,6 @@
 
 .feedback-face:last-child {
   margin-inline-end: 2.4rem;
-}
-
-.feedback-info {
-  display: flex;
-  flex-direction: column;
 }
 
 .feedback-number {
@@ -253,8 +242,8 @@
   background-color: #3bb094;
 }
 
-/* markting-card */
-.markting-card {
+/* marketing-card */
+.marketing-card {
   background-color: #eef1f6;
   padding: 6.4rem;
   max-height: 44rem;
@@ -321,17 +310,15 @@
 }
 
 .mr-features-heading {
-  font-size: 3.6rem;
-  font-weight: 900;
   color: #fff;
 }
 
-.features-subheading {
-  font-size: 1.6rem;
+.mr-features-subheading {
+  /* font-size: 1.6rem; */
   color: #fff;
 }
 
-.feature-text {
+.mr-feature-text {
   color: #9294a3;
   font-size: 1.4rem;
   font-weight: 500;
@@ -423,15 +410,13 @@
   color: #525258;
 }
 
-.learn-how-visuals {
+.learn-how {
+  grid-template-columns: 3fr 1fr;
 }
 
-.video {
-  display: flex;
-  justify-content: space-between;
-}
-
-.video-thumb {
+.slide-img {
+  grid-column: 2 / -1;
+  grid-row: 1;
 }
 
 .video-description {
@@ -446,7 +431,7 @@
   margin-inline-end: auto;
 }
 
-p.video-subeading {
+.video-subeading {
   font-size: 1.6rem;
 }
 
@@ -750,23 +735,20 @@ li.line-through {
   justify-items: center;
 }
 
-.testimonial-img {
-  /* background: url(/imgs/testimonial-bg-2.jpg);
+.testimonial-img-box {
+  background: url(/imgs/testimonial-bg-2.jpg);
   background-repeat: no-repeat;
-  grid-template-columns: 1.5fr 4fr;
-  grid-column: -1/1;
   height: 45rem;
-  width: 100%;
-  padding: 5rem; */
-  z-index: -1;
-  position: absolute;
+  width: 90%;
 }
 
 .testimonial {
-  max-width: 115rem;
+  max-width: 110rem;
+  position: absolute;
   display: grid;
+  align-items: center;
   grid-template-columns: 1.5fr 4fr;
-  padding: 9.6rem;
+  padding: 8.6rem;
 }
 
 .author-rating {
