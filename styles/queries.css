@@ -312,7 +312,8 @@
   }
 
   .sponser-box-1 {
-    column-gap: 0;
+    justify-self: center;
+    column-gap: 1.8rem;
   }
 
   .sponser-box-2 {
