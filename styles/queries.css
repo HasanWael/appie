@@ -37,6 +37,10 @@
     font-size: 50%;
   }
 
+  .header-container {
+    padding-block-end: 6.4rem;
+  }
+
   .header-logo-box {
     margin-inline-end: auto;
   }
