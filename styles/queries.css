@@ -307,6 +307,10 @@
     text-align: left;
   }
 
+  .testimonial {
+    padding: 3.6rem;
+  }
+
   .sponser-box-2 {
     grid-template-columns: 1fr 1fr;
   }
