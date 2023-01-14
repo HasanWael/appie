@@ -37,6 +37,13 @@
     font-size: 50%;
   }
 
+  .cta--btn-1:link,
+  .cta--btn-1:visited,
+  .cta--btn-1:hover,
+  .cta--btn-1:active {
+    display: inline-block;
+  }
+
   .header-container {
     padding-block-end: 6.4rem;
   }
@@ -101,43 +108,142 @@
   }
 
   /* MOBILE NAVIGATION */
-  .btn-mobile-nav {
-    display: block;
-    z-index: 999;
+  .checkbox,
+  .burger-lines {
+    display: inline-block;
+    visibility: visible;
+    pointer-events: all;
+    opacity: 1;
+    margin-inline-end: 2rem;
   }
 
-  .header-nav {
-    background-color: rgba(255, 255, 255, 0.9);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+  .nav-container .burger-lines {
+    display: block;
+    height: 2.8rem;
+    width: 3.2rem;
+    position: absolute;
+    top: 5.7rem;
+    right: 0;
+    display: flex;
+    z-index: 3;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .nav-container .burger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #0e2431;
+  }
+
+  .nav-container .burger-lines .line-1 {
+    transform-origin: left;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .nav-container .burger-lines .line-2 {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .nav-container .burger-lines .line-3 {
+    transform-origin: left;
+    transition: transform 0.4s ease-in-out;
+  }
+
+  .navbar {
+    /* background-color: blue; */
+    position: relative;
+  }
+
+  .nav-container {
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-end: 4rem;
+  }
+
+  .nav-container .checkbox {
+    position: absolute;
+    display: block;
+    height: 3.2rem;
+    width: 3.2rem;
+    top: 5.7rem;
+    right: 0;
+    z-index: 4;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .header-items li {
+    font-size: 2.2rem;
+  }
+
+  .nav-container .header-items {
+    background-color: #eef1f6;
     position: absolute;
     top: 0;
-    right: 0;
-    width: 100%;
+    left: 0;
     height: 100vh;
-
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+    transform: translate(-150%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s ease-in;
-    transform: translateX(100%);
-
-    /* HIDING THE NAV-BAR */
-
-    /* display: none; Do NOT allow us to add transitions */
-
-    /* so we need to do this steps to make it unvisible */
-    /* 1) Hide it visually */
-    opacity: 0;
-
-    /* 2) Make it unaccessible to mouse and keyboard */
-    pointer-events: none;
-
-    /* 3) Hide it from screen readers */
-    visibility: hidden;
+    z-index: 2;
   }
 
-  .nav-open .header-nav {
+  .nav-container input[type="checkbox"]:checked ~ .header-items {
+    transform: translateX(0);
+  }
+
+  .nav-container input[type="checkbox"]:checked ~ .burger-lines .line-1 {
+    transform: rotate(45deg);
+  }
+
+  .nav-container input[type="checkbox"]:checked ~ .burger-lines .line-2 {
+    transform: scaleY(0);
+  }
+
+  .nav-container input[type="checkbox"]:checked ~ .burger-lines .line-3 {
+    transform: rotate(-45deg);
+  }
+
+  .nav-container input[type="checkbox"]:checked ~ .header-logo-box {
+    opacity: 0;
+  }
+  .nav-container input[type="checkbox"]:checked ~ .cta--btn-1:link {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  .cta--btn-1:link,
+  .header-logo-box {
+    transition: all 0.3s ease-out;
+  }
+  /* 
+  /* .header-nav { */
+  /* HIDING THE NAV-BAR */
+
+  /* display: none; Do NOT allow us to add transitions */
+
+  /* so we need to do this steps to make it unvisible */
+
+  /* 1) Hide it visually */
+  /* opacity: 0; */
+
+  /* 2) Make it unaccessible to mouse and keyboard */
+  /* pointer-events: none; */
+
+  /* 3) Hide it from screen readers
+    visibility: hidden;
+  }
+ */
+  /* .nav-open .header-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -161,7 +267,7 @@
   .header-nav-link:link,
   .header-nav-link:visited {
     font-size: 3rem;
-  }
+  } */
 }
 
 /*********************************/

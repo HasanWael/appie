@@ -1,11 +1,20 @@
+/* Mobile-Nav */
+.checkbox,
+.burger-lines {
+  display: none;
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
+
 /* ************** */
 /* HEADER */
 /* ************** */
-.header {
+.navbar {
   background-color: #eef1f6;
 }
 
-.header-container {
+.nav-container {
   max-width: 90vw;
   display: flex;
   align-items: center;
@@ -18,7 +27,7 @@
   margin-inline-end: 8rem;
 }
 
-.header-nav {
+.header-items {
   display: flex;
   gap: 3.2rem;
   margin-inline-end: auto;
@@ -29,7 +38,7 @@
   font-size: 1.2rem;
 }
 
-.header-nav li {
+.header-items li {
   display: flex;
   align-items: center;
   list-style: none;
@@ -37,6 +46,10 @@
   font-weight: 500;
   color: #0e1133;
   cursor: pointer;
+}
+
+.navbar .nav-container a:hover {
+  font-weight: bolder;
 }
 
 .cta--btn-1:link,
