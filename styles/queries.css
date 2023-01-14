@@ -332,10 +332,6 @@
     grid-template-columns: 1fr;
   }
 
-  .p-inline-md {
-    padding-inline: 4.8rem;
-  }
-
   .hero {
     row-gap: 0;
   }
@@ -346,6 +342,10 @@
 
   .cta {
     max-width: 100%;
+  }
+
+  .download-subheading {
+    text-align: left;
   }
 
   .how-subheading {
