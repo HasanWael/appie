@@ -332,6 +332,10 @@
     grid-template-columns: 1fr;
   }
 
+  .p-inline-md {
+    padding-inline: 4.8rem;
+  }
+
   .hero {
     row-gap: 0;
   }
@@ -354,6 +358,10 @@
   }
 
   .heading {
+    text-align: center;
+  }
+
+  .subheading {
     text-align: center;
   }
 
