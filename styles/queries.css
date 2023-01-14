@@ -344,14 +344,6 @@
     max-width: 100%;
   }
 
-  .download-subheading {
-    text-align: left;
-  }
-
-  .how-subheading {
-    text-align: center;
-  }
-
   .features {
     grid-template-columns: 1fr;
     text-align: center;
@@ -363,6 +355,16 @@
 
   .subheading {
     text-align: center;
+  }
+
+  .how-subheading {
+    text-align: left;
+  }
+
+  .how-heading-box .heading,
+  .video-subeading,
+  .download-subheading {
+    text-align: left;
   }
 
   .subheading-container {
