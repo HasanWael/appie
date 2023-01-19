@@ -81,18 +81,20 @@
               </h1>
               <p class="hero-text">Find the best application in the appie.</p>
             </div>
-            <div class="cta align-items-c">
+            <form class="cta-form flex align-items-c">
               <ion-icon class="cta-mail-icon" name="mail-outline"></ion-icon>
               <input
                 class="cta-input"
-                type="text"
+                type="email"
                 placeholder="info@appie.com"
               />
-              <ion-icon
-                class="cta-arrow-icon"
-                name="arrow-forward-outline"
-              ></ion-icon>
-            </div>
+              <button class="cta-submit--btn flex align-items-c" type="submit">
+                <ion-icon
+                  class="cta-arrow-icon"
+                  name="arrow-forward-outline"
+                ></ion-icon>
+              </button>
+            </form>
             <div class="feedback flex align-items-c">
               <div class="feedback-faces">
                 <img
@@ -493,13 +495,24 @@
 
           <div class="plan-type">
             <ul>
-              <li class="type" tabindex="0">Monthly</li>
-              <li class="type" tabindex="0">Yearly</li>
+              <label for="monthly-checkbox"
+                ><li class="type" tabindex="0">Monthly</li></label
+              >
+              <label for="yearly-checkbox"
+                ><li class="type" tabindex="0">Yearly</li></label
+              >
             </ul>
           </div>
 
           <!-- CARDS -->
-          <div class="pricing-plans grid grid--3-cols grid--gap-md">
+          <input
+            type="checkbox"
+            class="monthly-checkbox"
+            id="monthly-checkbox"
+            name=""
+            checked
+          />
+          <div class="pricing-plans monthly grid grid--3-cols grid--gap-md">
             <div class="card card-1">
               <div class="p-bottom-md">
                 <h3 class="card-heading m-bottom-md">Fresh</h3>
@@ -635,6 +648,155 @@
               <a href="#" class="plan--btn">Choose plan</a>
             </div>
           </div>
+
+          <input
+            type="checkbox"
+            class="yearly-checkbox"
+            name=""
+            id="yearly-checkbox"
+          />
+          <!-- <div class="pricing-plans yearly grid grid--3-cols grid--gap-md">
+              <div class="card card-1">
+                <div class="p-bottom-md">
+                  <h3 class="card-heading m-bottom-md">Fresh</h3>
+
+                  <div class="price-box m-bottom-sm">
+                    <i class="fa-sharp fa-solid fa-dollar-sign dollar-sign"></i>
+                    <p class="price">04<span class="per">/month</span></p>
+                  </div>
+                  <p class="card-text">Get your free 14 day trial</p>
+                </div>
+
+                <div class="plan-details">
+                  <ul class="plan-ul">
+                    <li class="line-through">
+                      <ion-icon
+                        class="close-icon"
+                        name="close-outline"
+                      ></ion-icon
+                      >Data security
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >60-day chat history
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >50 GB cloud storage
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >24/7 Support
+                    </li>
+                  </ul>
+                </div>
+
+                <a href="#" class="plan--btn">Choose plan</a>
+              </div>
+
+              <div class="card card-2">
+                <div class="p-bottom-md">
+                  <h3 class="card-heading m-bottom-md">Sweet</h3>
+
+                  <div class="price-box m-bottom-sm">
+                    <i class="fa-sharp fa-solid fa-dollar-sign dollar-sign"></i>
+                    <p class="price">16<span class="per">/month</span></p>
+                  </div>
+                  <p class="card-text">Billed $276 per website annually</p>
+                </div>
+
+                <div class="plan-details">
+                  <ul class="plan-ul">
+                    <li class="line-through">
+                      <ion-icon
+                        class="close-icon"
+                        name="close-outline"
+                      ></ion-icon
+                      >Data security
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >60-day chat history
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >50 GB cloud storage
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >24/7 Support
+                    </li>
+                  </ul>
+                </div>
+
+                <a href="#" class="plan--btn">Choose plan</a>
+              </div>
+
+              <div class="card card-3">
+                <div class="p-bottom-md">
+                  <h3 class="card-heading m-bottom-md">Juicy</h3>
+
+                  <div class="price-box m-bottom-sm">
+                    <i class="fa-sharp fa-solid fa-dollar-sign dollar-sign"></i>
+                    <p class="price">27<span class="per">/month</span></p>
+                  </div>
+                  <p class="card-text">Billed $276 per website annually</p>
+                </div>
+
+                <div class="plan-details">
+                  <ul class="plan-ul">
+                    <li>
+                      <ion-icon
+                        class="check-icon juicy"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >Data security
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon juicy"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >60-day chat history
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon juicy"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >50 GB cloud storage
+                    </li>
+                    <li>
+                      <ion-icon
+                        class="check-icon juicy"
+                        name="checkmark-outline"
+                      ></ion-icon
+                      >24/7 Support
+                    </li>
+                  </ul>
+                </div>
+
+                <a href="#" class="plan--btn">Choose plan</a>
+              </div>
+            </div> -->
         </div>
       </section>
 
@@ -695,9 +857,7 @@
           </h2>
           <p class="subheading">Join over 40,000 businesses worldwide.</p>
         </div>
-        <div
-          class="sponser-box-1 grid grid--6-cols grid--gap-sm m-bottom-md align-items-c"
-        >
+        <div class="sponser-box-1 grid grid--6-cols m-bottom-md align-items-c">
           <img
             class="sponser-img"
             src="/imgs/sponsers/sponser-1.png"

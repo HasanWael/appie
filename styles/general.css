@@ -74,6 +74,14 @@ Meduim: 11px
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  border: none;
+  border-radius: 2pt;
+  box-shadow: 0 0 0 4pt rgba(251, 79, 114, 0.541);
+  transition: 0.1s;
+}
+
 html {
   /* 10/16 * 100 */
   font-size: 62.5%;
