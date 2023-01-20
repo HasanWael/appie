@@ -588,6 +588,10 @@
   transform: scale(1, 1);
   height: 100%;
 }
+.monthly-checkbox:checked ~ .plan-type ul .type-monthly {
+  background: #ff3e66;
+  color: #fff;
+}
 
 /* .yearly {
   visibility: hidden;
@@ -637,10 +641,13 @@
   cursor: pointer;
 }
 
-.type:hover,
-.type:focus {
+.type:hover {
   background: #ff3e66;
   color: #fff;
+}
+
+.type:focus {
+  box-shadow: none;
 }
 
 /* I was trying to make the somethimg like the click in JS but with CSS */
@@ -660,7 +667,40 @@
   width: 100%;
 }
 
-.card-2::before {
+.plan--btn:link,
+.plan--btn:visited {
+  display: inline-block;
+  color: #0f1234;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+  padding-block: 1.4rem;
+  padding-inline: 3rem;
+  border: 2px solid #eef1f6;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.card.popular,
+.card.popular:active {
+  box-shadow: 0px 14px 20px 0px rgba(28, 28, 28, 0.12);
+  border-top: 0.3rem solid #ff3e66;
+  padding-block-end: 4.7rem;
+}
+
+.card.popular:hover {
+  box-shadow: 0px 20px 20px 1px rgba(28, 28, 28, 0.15);
+}
+
+.card.popular .plan--btn,
+.card.popular .plan--btn:active {
+  background-color: #ff3e66;
+  color: #fff;
+  border: 2px solid #ff3e66;
+}
+
+.popular::before {
   content: "Most Popular";
   background-color: #2a6df5;
   font-size: 1.4rem;
@@ -693,15 +733,7 @@
 } */
 
 .card:hover {
-  box-shadow: 0px 14px 20px 0px rgb(28 28 28 / 12%);
-  border-top: 0.3rem solid #ff3e66;
-  padding-block-end: 4.7rem;
-}
-
-.card:hover .plan--btn {
-  background-color: #ff3e66;
-  color: #fff;
-  border: 2px solid #ff3e66;
+  box-shadow: 0px 0px 10px 0px rgba(28, 28, 28, 0.1);
 }
 
 .card-heading {
@@ -739,9 +771,6 @@
 .plan-details {
 }
 
-/* .plan-ul li::marker {
-  
-} */
 .check-icon {
   font-size: 1.8rem;
   color: #4480f6;
@@ -785,22 +814,6 @@ li.line-through {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-}
-
-.plan--btn:link,
-.plan--btn:visited,
-.plan--btn:active {
-  display: inline-block;
-  color: #0f1234;
-  font-size: 1.4rem;
-  font-weight: 500;
-  text-decoration: none;
-  background-color: transparent;
-  padding-block: 1.4rem;
-  padding-inline: 3rem;
-  border: 2px solid #eef1f6;
-  border-radius: 100px;
-  transition: all 0.3s;
 }
 
 /* **************** */
